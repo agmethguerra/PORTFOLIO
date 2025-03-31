@@ -7,11 +7,12 @@ body {
     font-family: system-ui;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     overflow-y: auto; /* Permite scroll vertical cuando sea necesario */
     overflow-x: hidden; /* Oculta el scroll horizontal */
     border: 15px solid transparent;
+    height: 100vh;
 }
-
 /* Scrollbar personalizado */
 body::-webkit-scrollbar {
     width: 8px;
